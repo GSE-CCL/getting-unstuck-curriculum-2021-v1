@@ -2348,7 +2348,7 @@ figcaption {
 
 .h1-orientation {
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 
 .image {
@@ -2360,6 +2360,7 @@ figcaption {
 
 .paragraph-9 {
   margin-bottom: 0px;
+  padding-top: 5px;
 }
 
 @media screen and (max-width: 991px) {
