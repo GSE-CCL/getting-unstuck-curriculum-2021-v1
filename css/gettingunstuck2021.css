@@ -1553,7 +1553,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 5px;
   padding-bottom: 0px;
@@ -2348,7 +2348,7 @@ figcaption {
 
 .h1-orientation {
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .image {
@@ -2356,6 +2356,10 @@ figcaption {
   margin-bottom: 2px;
   margin-left: 10px;
   background-color: transparent;
+}
+
+.paragraph-9 {
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 991px) {
