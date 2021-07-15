@@ -1476,6 +1476,24 @@ figcaption {
   text-decoration: none;
 }
 
+.text-footer.footer-icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .link-2 {
   display: inline-block;
 }
@@ -2078,8 +2096,8 @@ figcaption {
 
 .orientation-cols.orientation-mod-cols {
   max-width: 1200px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2088,8 +2106,8 @@ figcaption {
 
 .orientation-cols.orientation-vid {
   max-width: 1200px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2330,7 +2348,14 @@ figcaption {
 
 .h1-orientation {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.image {
+  margin-right: 10px;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
@@ -3075,6 +3100,7 @@ figcaption {
   }
 
   .h1-orientation {
+    margin-bottom: 5px;
     font-size: 2rem;
     line-height: 2.25rem;
   }
@@ -3455,6 +3481,7 @@ figcaption {
   }
 
   .h1-orientation {
+    margin-bottom: 5px;
     font-size: 1.85rem;
     line-height: 2rem;
   }
