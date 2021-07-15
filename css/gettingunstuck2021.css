@@ -1505,6 +1505,7 @@ figcaption {
 .orientation-button {
   position: static;
   display: block;
+  margin-top: 15px;
   margin-right: 40px;
   margin-left: 0px;
   padding: 10px 25px;
@@ -3006,7 +3007,7 @@ figcaption {
   }
 
   .module-button.button-preview {
-    display: none;
+    display: block;
   }
 
   .module-button.button-edit {
