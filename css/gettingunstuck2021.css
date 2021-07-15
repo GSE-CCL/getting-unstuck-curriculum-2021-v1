@@ -3007,7 +3007,7 @@ figcaption {
   }
 
   .module-button.button-preview {
-    display: block;
+    display: none;
   }
 
   .module-button.button-edit {
